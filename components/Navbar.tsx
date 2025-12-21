@@ -51,17 +51,16 @@ const Navbar: React.FC<NavbarProps> = ({ darkMode, toggleDarkMode }) => {
   return (
     <>
       <nav
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-          isScrolled
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
             ? "bg-white/70 dark:bg-slate-900/70 backdrop-blur-md shadow-lg py-4"
             : "bg-transparent py-6"
-        }`}
+          }`}
       >
         <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
           {/* Logo */}
           <a href="#" className="flex items-center gap-2 group">
             <div className="relative w-8 h-8 rounded-lg bg-gradient-to-tr from-blue-600 to-purple-600 flex items-center justify-center text-white font-bold text-lg shadow-lg group-hover:scale-110 transition-transform">
-              <img src="public/App_Logo.png" className=" rounded-lg"/>
+              <img src="/App_Logo.png" className=" rounded-lg" />
               <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 rounded-lg transition-opacity" />
             </div>
             <span className="font-bold text-xl tracking-tight text-slate-800 dark:text-white">
