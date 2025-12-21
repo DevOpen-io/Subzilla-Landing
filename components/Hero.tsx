@@ -76,7 +76,7 @@ const Hero: React.FC = () => {
                       href={ConfigData.fdroid_url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center gap-3 rounded-xl hover:bg-slate-50 dark:hover:bg-slate-700/50 transition-colors group"
+                      className="flex items-center gap-3 rounded-xl hover:bg-slate-50 dark:hover:bg-slate-700/50 transition-colors group p-2"
                     >
                       <img
                         src="/get-it-on-fdroid.png"
@@ -88,7 +88,7 @@ const Hero: React.FC = () => {
                       href={ConfigData.playstore_url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center gap-3 rounded-xl hover:bg-slate-50 dark:hover:bg-slate-700/50 transition-colors group"
+                      className="flex items-center gap-3 rounded-xl hover:bg-slate-50 dark:hover:bg-slate-700/50 transition-colors group p-2"
                     >
                       <img
                         src="/get-it-on-google-play.png"
